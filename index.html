@@ -98,13 +98,24 @@ button{
     font-weight:bold;
     color:green;
 }
+    .team-label{
+    display:inline-block;
+    margin:5px 0 12px;
+    padding:8px 16px;
+    background:#e8f5ee;
+    border:1px solid #b8ddc5;
+    border-radius:20px;
+    color:#176b50;
+    font-size:15px;
+    font-weight:bold;
+}
 </style>
 </head>
 
 <body>
 
 <div class="card">
-
+<div class="team-label">👥 Команда 3 · 6-В класс</div>
 <h2>🏛️ Станция 6: Музей закономерностей</h2>
 
 <div class="info">
@@ -224,7 +235,7 @@ zones.forEach((z,i)=>{
 
 if(ok){
     document.getElementById("result").innerText = "✔ Отлично! Все закономерности восстановлены";
-    document.getElementById("code").innerText = "🔐 Код: Кру";
+    document.getElementById("code").innerText = "🔐 Код: ки";
 }else{
     document.getElementById("result").innerText = "❌ Есть ошибки";
     document.getElementById("code").innerText = "";
